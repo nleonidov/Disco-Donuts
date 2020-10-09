@@ -33,7 +33,7 @@ _These are examples only. Replace with your own MVP features._
 #### PostMVP
 
 - Alternate interface where the order would be fully customizable
-- Storing ingredients when supply runs low after 'x' amount of coffee/donuts has been used.
+- Storing ingredients when supply runs low after 'x' amount of coffee/donuts has been sold.
 
 ## Project Schedule
 
@@ -59,17 +59,19 @@ Time frames are also key in the development cycle. You have limited time to code
 
 | Component          | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------ | :------: | :------------: | :-----------: | :---------: |
-| Data Collection    |    H     |      3hrs      |    1.5hrs     |   1.5hrs    |
+| Data Collection    |    H     |      3hrs      |   1 1/2hrs    |   1.5hrs    |
 | Airtable Setup     |    H     |      1hrs      |    1/2hrs     |   1/2hrs    |
 | Connecting 'API'   |    H     |      4hrs      |     0hrs      |    0hrs     |
 | Functional Buttons |    H     |     3.5hrs     |     0hrs      |    0hrs     |
 | Option Dropdowns   |    H     |     3.5hrs     |     0hrs      |    0hrs     |
 | Printing Receipt   |    H     |      2hrs      |     0hrs      |    0hrs     |
-| Total              |    H     |      6hrs      |     5hrs      |    5hrs     |
+| Total              |    H     |     17hrs      |     5hrs      |    5hrs     |
 
 ## SWOT Analysis
 
 ### Strengths:
+
+    HTML
 
 ### Weaknesses:
 
@@ -80,3 +82,5 @@ Time frames are also key in the development cycle. You have limited time to code
     Creating a fun virtual coffee/donut shop and learning more about web engineering.
 
 ### Threats:
+
+    Adding REACT elements correctly
