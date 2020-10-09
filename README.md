@@ -2,42 +2,38 @@
 
 ## Project Name
 
-The name of your project.
+**Disco Donuts**
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+Disco Donuts is an upbeat, currently 'to-go' only, donut/coffee shop. The guest will customize their order using a menu which utilizes the data requested from the Airtable. After an order has been placed, the guest receipt will be displayed and they will be given an estimated an order prep time after which they will be able to come pick up their order.
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+Disco Desktop - https://i.imgur.com/izB4pvs.png
+Disco Tablet - https://i.imgur.com/cp7UKTZ.png
+Disco Mobile - https://i.imgur.com/z6BDF8b.png
 
 ## Component Hierarchy
 
-Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/uploads/users/1795/posts/30352/image/GettingStartedWithReduxTutorial-React-Component-Structure.png) as an example.
+https://i.imgur.com/Z3eYfqD.png
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
-
-### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MPV and PostMVP. Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.
+https://airtable.com/tbl9TKpCFsNWH5JLL/viwHhNwF9KQ50MtCH?blocks=hide
 
 #### MVP
 
 _These are examples only. Replace with your own MVP features._
 
-- Find and use external api
-- Render data on page
-- Allow user to choose favorites
+- Implementing buttons that capture that value of order name, as well as order.
+- Printing a receipt for the order by appending data to a 'receipt' div
+- Drop down menu for customizing order
 
 #### PostMVP
 
-_These are examples only. Replace with your own Post-MVP features._
-
-- Add second API
-- Use local storage to save user favorites
+- Alternate interface where the order would be fully customizable
+- Storing ingredients when supply runs low after 'x' amount of coffee/donuts has been used.
 
 ## Project Schedule
 
@@ -61,11 +57,15 @@ Tell us how long you anticipate spending on each area of development. Be sure to
 
 Time frames are also key in the development cycle. You have limited time to code all phases of the game. Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
 
-| Component        | Priority | Estimated Time | Time Invested | Actual Time |
-| ---------------- | :------: | :------------: | :-----------: | :---------: |
-| Adding Form      |    H     |      3hrs      |    3.5hrs     |   3.5hrs    |
-| Working with API |    H     |      3hrs      |    2.5hrs     |   2.5hrs    |
-| Total            |    H     |      6hrs      |     5hrs      |    5hrs     |
+| Component          | Priority | Estimated Time | Time Invested | Actual Time |
+| ------------------ | :------: | :------------: | :-----------: | :---------: |
+| Data Collection    |    H     |      3hrs      |    1.5hrs     |   1.5hrs    |
+| Airtable Setup     |    H     |      1hrs      |    1/2hrs     |   1/2hrs    |
+| Connecting 'API'   |    H     |      4hrs      |     0hrs      |    0hrs     |
+| Functional Buttons |    H     |     3.5hrs     |     0hrs      |    0hrs     |
+| Option Dropdowns   |    H     |     3.5hrs     |     0hrs      |    0hrs     |
+| Printing Receipt   |    H     |      2hrs      |     0hrs      |    0hrs     |
+| Total              |    H     |      6hrs      |     5hrs      |    5hrs     |
 
 ## SWOT Analysis
 
@@ -73,6 +73,10 @@ Time frames are also key in the development cycle. You have limited time to code
 
 ### Weaknesses:
 
+    Creating methods and functions - state - components
+
 ### Opportunities:
+
+    Creating a fun virtual coffee/donut shop and learning more about web engineering.
 
 ### Threats:
