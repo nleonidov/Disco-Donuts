@@ -3,7 +3,13 @@ body {
   background-size: 100%;
 }
 
-header {
-  font-family: "Codystar", cursive;
+main {
+  text-align: center;
+  background-color: burlywood;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+div {
   text-align: center;
 }

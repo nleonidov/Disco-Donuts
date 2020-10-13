@@ -4,38 +4,47 @@ import { baseURL } from "./Constants";
 import axios from "axios";
 import Home from "./Home";
 import Order from "./Order";
+import Menu from "./Menu";
+import Total from "./Total";
 import "./Style.css";
 
 function App() {
-  const [products, setProducts] = useState([]);
+  const [menu, setMenu] = useState([]);
 
   useEffect(() => {
-    const getProducts = async () => {
+    const getMenu = async () => {
       const airtableURL = `${baseURL}`;
       const response = await axios.get(airtableURL, {
         headers: {
           Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
         },
       });
-      setProducts(response.data);
+      setMenu(response.data.records);
     };
-    getProducts();
+    getMenu();
   }, []);
+
+  // setDrinks(() => );
+  // console.log(pastries);
+  // console.log(menu);
 
   return (
     <>
-      <nav>
-        <Link to="/">Menu</Link>
-        <Link to="/order">Order Now</Link>
-      </nav>
-      <main>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route exact path="/order">
-          <Order />
-        </Route>
-      </main>
+      <div className="App">
+        <nav>
+          <Link to="/">Menu</Link>
+          <Link to="/order">Order Now</Link>
+        </nav>
+        <main>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/order">
+            <Order />
+          </Route>
+        </main>
+        <Menu products={menu} />
+      </div>
     </>
   );
 }
