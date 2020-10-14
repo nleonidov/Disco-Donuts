@@ -1,9 +1,7 @@
 import React from "react";
 
 function Total(props) {
-    return(
-
-    );
+  return <div></div>;
 }
 
 export default Total;
