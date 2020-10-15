@@ -1,18 +1,105 @@
+header,
+nav,
+footer,
+article {
+  border: 1px solid black;
+}
+
+footer {
+  text-align: center;
+}
+
+.layout {
+  display: grid;
+  width: 100vw;
+  grid-template-areas:
+    "header header header header header header"
+    "header header header header header header"
+    "nav menu menu menu menu receipt"
+    "nav menu menu menu menu receipt"
+    "nav menu menu menu menu receipt"
+    "nav menu menu menu menu receipt"
+    "nav menu menu menu menu receipt"
+    "footer footer footer footer footer footer";
+}
+
+header {
+  grid-area: header;
+}
+nav {
+  grid-area: nav;
+}
+footer {
+  grid-area: footer;
+}
+article {
+  grid-area: receipt;
+}
+section {
+  grid-area: menu;
+}
+
 body {
+  display: grid;
   background-image: url(https://i.imgur.com/nyHEzfG.jpg);
-  background-size: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 75%;
+}
+
+.menuItems {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  width: 900px;
+  max-width: 80vh;
+  margin: 0 auto;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px;
 }
 
 main {
+  display: grid;
   text-align: center;
   background-color: burlywood;
-  margin-left: 500px;
-  margin-right: 500px;
+  margin: 0 auto;
+  width: fit-content;
+  padding: 0px 20px;
 }
 
 div {
   text-align: center;
 }
 
-form {
+@media screen and (max-width: 774px) {
+  .menuItems {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 474px) {
+  .menuItems {
+    grid-template-columns: 1fr;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Permanent+Marker&display=swap");
+h3,
+h4,
+h5 {
+  font-family: "Permanent Marker";
+  font-size: 20px;
+}
+
+h2 {
+  font-family: "Permanent Marker";
+  font-size: 28px;
+}
+
+h1 {
+  font-family: "Permanent Marker";
+  font-size: 36px;
+  margin: 0 auto;
 }

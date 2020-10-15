@@ -5,11 +5,12 @@ import axios from "axios";
 import Home from "./Home";
 import Order from "./Order";
 import Menu from "./Menu";
-import Total from "./Total";
+import Footer from "./Footer";
 import "./Style.css";
 
 function App() {
   const [menu, setMenu] = useState([]);
+  const [fetchData, setFetchData] = useState(false);
 
   useEffect(() => {
     const getMenu = async () => {
@@ -22,7 +23,7 @@ function App() {
       setMenu(response.data.records);
     };
     getMenu();
-  }, []);
+  }, [fetchData]);
 
   // setDrinks(() => );
   // console.log(pastries);
@@ -37,14 +38,27 @@ function App() {
         </nav>
         <main>
           <Route exact path="/">
-            <Home />
+            <Home menu={menu} />
           </Route>
           <Route exact path="/order">
-            <Order />
+            {/* Pass menu props to order */}
+            <Order
+              fetchData={fetchData}
+              setFetchData={setFetchData}
+              pastries={menu.slice(7)}
+              drinks={menu.slice(0, 6)}
+            />
           </Route>
         </main>
-        <Menu products={menu} />
       </div>
+      <div className="layout">
+        {/* <header>Header</header>
+        <nav>Nav</nav>
+        <footer>Footer</footer>
+        <section>Menu</section>
+        <article>Receipt</article> */}
+      </div>
+      <Footer />
     </>
   );
 }
