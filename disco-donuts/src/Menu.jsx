@@ -1,10 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
 function Menu(props) {
-  const [drinks, setDrinks] = useState([]);
-  const [pastries, setPastries] = useState([]);
-  const [name, setName] = useState("");
-
   return (
     <div>
       {props.products.map((product) => (

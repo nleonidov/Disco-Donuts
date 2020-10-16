@@ -50,7 +50,9 @@ function Order(props) {
     setPastry("");
     setTotal("");
     setIsClicked(true);
+    total();
   };
+
   return (
     <>
       <h2>Customize your order!</h2>

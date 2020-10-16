@@ -38,6 +38,11 @@ article {
 section {
   grid-area: menu;
 }
+nav {
+  font-family: "Chelsea Market";
+  text-align: center;
+  justify-content: space-between;
+}
 
 body {
   display: grid;
@@ -85,21 +90,22 @@ div {
   }
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap");
 h3,
 h4,
 h5 {
-  font-family: "Permanent Marker";
+  font-family: "Chelsea Market";
   font-size: 20px;
 }
 
-h2 {
-  font-family: "Permanent Marker";
+h2,
+h6 {
+  font-family: "Chelsea Market";
   font-size: 28px;
 }
 
 h1 {
-  font-family: "Permanent Marker";
+  font-family: "Chelsea Market";
   font-size: 36px;
   margin: 0 auto;
 }

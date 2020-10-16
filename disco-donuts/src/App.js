@@ -4,7 +4,6 @@ import { baseURL } from "./Constants";
 import axios from "axios";
 import Home from "./Home";
 import Order from "./Order";
-import Menu from "./Menu";
 import Footer from "./Footer";
 import "./Style.css";
 
@@ -24,10 +23,6 @@ function App() {
     };
     getMenu();
   }, [fetchData]);
-
-  // setDrinks(() => );
-  // console.log(pastries);
-  // console.log(menu);
 
   return (
     <>

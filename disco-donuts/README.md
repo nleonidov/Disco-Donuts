@@ -43,12 +43,12 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 | Day        | Deliverable                                        | Status     |
 | ---------- | -------------------------------------------------- | ---------- |
-| July 10-12 | Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete |
-| July 13    | Project Approval                                   | Incomplete |
-| July 13    | Core Application Structure (HTML, CSS, etc.)       | Incomplete |
-| July 14    | Pseudocode / actual code                           | Incomplete |
-| July 15    | Initial Clickable Model                            | Incomplete |
-| July 16    | MVP                                                | Incomplete |
+| July 10-12 | Prompt / Wireframes / Priority Matrix / Timeframes | Complete   |
+| July 13    | Project Approval                                   | Complete   |
+| July 13    | Core Application Structure (HTML, CSS, etc.)       | Complete   |
+| July 14    | Pseudocode / actual code                           | Complete   |
+| July 15    | Initial Clickable Model                            | Complete   |
+| July 16    | MVP                                                | Complete   |
 | July 17    | Presentations                                      | Incomplete |
 
 ## Timeframes
@@ -59,13 +59,13 @@ Time frames are also key in the development cycle. You have limited time to code
 
 | Component          | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------ | :------: | :------------: | :-----------: | :---------: |
-| Data Collection    |    H     |     3 hrs      |   1 1/2hrs    |  1 1/2 hrs  |
-| Airtable Setup     |    H     |    3 1/2hrs    |     2 hrs     |   1/2 hrs   |
-| Connecting 'API'   |    H     |     4 hrs      |     0 hrs     |    0 hrs    |
-| Functional Buttons |    H     |    3.5 hrs     |     0 hrs     |    0 hrs    |
-| Option Dropdowns   |    H     |    3.5 hrs     |     0 hrs     |    0 hrs    |
-| Printing Receipt   |    H     |     2 hrs      |     0 hrs     |    0 hrs    |
-| Total              |    H     |     19 hrs     |     5 hrs     |    5hrs     |
+| Data Collection    |    H     |     3 hrs      |     3 hrs     |  1 1/2 hrs  |
+| Airtable Setup     |    H     |    3 1/2hrs    |     4 hrs     |   1/2 hrs   |
+| Connecting 'API'   |    H     |     4 hrs      |     3 hrs     |    0 hrs    |
+| Functional Buttons |    H     |   3 1/2 hrs    |   4 1/2 hrs   |    0 hrs    |
+| Option Dropdowns   |    H     |   3 1/2 hrs    |   3 1/2 hrs   |    0 hrs    |
+| Printing Receipt   |    H     |     2 hrs      |    3.5 hrs    |    0 hrs    |
+| Total              |    H     |     19 hrs     |  21 1/2 hrs   |  21 1/2hrs  |
 
 ## SWOT Analysis
 
