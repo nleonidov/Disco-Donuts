@@ -8,6 +8,8 @@
 
 Disco Donuts is an upbeat, currently 'to-go' only, donut/coffee shop. The guest will customize their order using a menu which utilizes the data requested from the Airtable. After an order has been placed, the guest receipt will be displayed and they will be given an estimated an order prep time after which they will be able to come pick up their order.
 
+https://frosty-bhabha-137380.netlify.app/ - Deployed Website
+
 ## Wireframes
 
 Disco Desktop - https://i.imgur.com/izB4pvs.png
